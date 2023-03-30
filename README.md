@@ -1,21 +1,8 @@
 [中文文档](https://github.com/Franciz008/dbbp/blob/main/%E4%B8%AD%E6%96%87ReadMe.md)
+
 # Backup and Restore Tool --dbbp
 
 This is a Python 3-based backup and restore tool for MySQL databases.
-
-## Installation
-
-This project depends on the following Python packages:
-
-* PyYAML
-* mysql-connector-python
-* rich
-
-You can install these dependencies using the following command:
-
-```sh
-pip install pyyaml mysql-connector-python rich
-```
 
 ## Configuration
 

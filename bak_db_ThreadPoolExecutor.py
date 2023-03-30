@@ -1,12 +1,11 @@
 import argparse
-import datetime
+import concurrent.futures
 import multiprocessing
 import os
-import time
-import mysql.connector
 import subprocess
-import concurrent.futures
+import time
 
+import mysql.connector
 import yaml
 from rich.prompt import Prompt
 from tqdm import tqdm

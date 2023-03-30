@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+name = "pip_conf_index_global"
+
+[packages]
+rich = "*"
+pyyaml = "*"
+tqdm = "*"
+mysql-connector-python = "*"
+loguru = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

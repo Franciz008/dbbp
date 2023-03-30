@@ -2,20 +2,6 @@
 
 该备份和还原工具基于 Python 3 实现，可用于备份和还原 MySQL 数据库。工具使用了异步多进程技术将数据库的每个表在备份和还原工作分配到各个进程从而大幅度提高效率。
 
-## 安装
-
-本项目依赖于以下 Python 包：
-
-* PyYAML
-* mysql-connector-python
-* `rich`
-
-可以使用以下命令来安装这些依赖包：
-
-```sh
-pip install pyyaml mysql-connector-python rich
-```
-
 ## 配置文件说明
 
 备份和还原工具需要一个 YAML 格式的配置文件。示例配置文件如下：
