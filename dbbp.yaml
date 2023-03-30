@@ -1,0 +1,17 @@
+backuper:
+  hostname: "192.168.10.1"
+  username: "root"
+  password: "123456"
+  database: "test"
+  port: 3307
+  db_cwd: /var/lib/mysql
+  max_workers: 4
+  backup_dir: /var/backups/mysql
+  # 额外的备份命令选项
+  ex_opt:
+    #    --routines 参数用于备份触发器、存储过程和函数等程序性对象，以便在还原数据库时也可以同时还原这些对象
+#    - --routines
+#    #    -add-drop-table 参数。该参数将在备份文件中添加 DROP TABLE IF EXISTS 语句和 CREATE TABLE 语句，以便在还原数据库时先删除已有的表格并重新创建新的表格。
+    - --add-drop-table
+    - --single-transaction
+
