@@ -18,7 +18,9 @@ pip install pyyaml mysql-connector-python rich
 
 ## Configuration
 
-This backup and restore tool is implemented based on Python 3 and can be used to backup and restore MySQL databases. The tool uses asynchronous multiprocess technology to assign each table of the database to different processes in the backup and restore work, thus greatly improving efficiency.
+This backup and restore tool is implemented based on Python 3 and can be used to backup and restore MySQL databases. The
+tool uses asynchronous multiprocess technology to assign each table of the database to different processes in the backup
+and restore work, thus greatly improving efficiency.
 
 ```yaml
 backuper:
@@ -105,10 +107,6 @@ python bak_db_apply_async.py --compress_delete_dir
 ```sh
 python bak_db_apply_async.py --decompress
 ```
-
-## About
-
-This backup and restore tool is an open-source project by binjie09, based on Python 3.
 
 ## License
 

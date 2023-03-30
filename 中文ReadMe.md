@@ -106,10 +106,6 @@ python bak_db_apply_async.py --compress_delete_dir
 python bak_db_apply_async.py --decompress
 ```
 
-## 关于
-
-该备份和还原工具是由 binjie09 开发的基于 Python 3 的开源项目。
-
 ## 许可证
 
 该备份和还原工具是基于 MIT 许可证发布的开源软件。
