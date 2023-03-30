@@ -285,7 +285,7 @@ def parse():
 
 
 def main():
-    with open('dbbp.yaml', 'r', encoding='utf-8') as f:
+    with open('./dbbp.yaml', 'r', encoding='utf-8') as f:
         config = yaml.safe_load(f)
 
     args = parse().parse_args()

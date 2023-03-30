@@ -92,6 +92,12 @@ python bak_db_apply_async.py --compress_delete_dir
 python bak_db_apply_async.py --decompress
 ```
 
+## 打包命令
+
+```sh
+pyinstaller --key 4008820 -n dbbp -F bak_db_apply_async.py --add-data "D:/WORK/PYTHON/my-python-tools/多线程备份数据库/resource;resource" -p clogger.py -p zip_file.py --distpath=E:\WORK\测试工具\多线程备份数据库
+```
+
 ## 许可证
 
 该备份和还原工具是基于 MIT 许可证发布的开源软件。
